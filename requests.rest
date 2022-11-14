@@ -1,0 +1,19 @@
+### DISCOVER
+
+GET https://api.themoviedb.org/3/discover/movie?api_key=d59d597d72ecfb734e4a0faae065c386&language=en-US&sort_by=popularity.desc&include_adult=true&include_video=false&page=1&with_genres=35&with_watch_monetization_types=flatrate
+
+### LIST OF GENRES
+
+GET https://api.themoviedb.org/3/genre/movie/list?api_key=d59d597d72ecfb734e4a0faae065c386&language=en-US
+
+### SINGLE MOVIE
+
+GET https://api.themoviedb.org/3/movie/532639?api_key=d59d597d72ecfb734e4a0faae065c386&language=en-US
+
+### POSTER
+
+GET https://image.tmdb.org/t/p/w200/gGEsBPAijhVUFoiNpgZXqRVWJt2.jpg
+
+### NEWEST
+
+GET https://api.themoviedb.org/3/discover/movie?api_key=d59d597d72ecfb734e4a0faae065c386&language=en-US&sort_by=primary_release_date.desc&include_adult=true&include_video=false&page=1&with_watch_monetization_types=flatrate

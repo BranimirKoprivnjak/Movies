@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0;
+}
+
+.description {
+  font-weight: 500;
+  color: #4c5a67;
+  margin-bottom: 0.4rem;
+}
+
+.text {
+  font-size: 1rem;
+  color: #8a8d98;
+}

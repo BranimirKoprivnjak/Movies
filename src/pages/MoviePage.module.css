@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  justify-content: center;
+  height: 93vh;
+}
+
+.wrapper {
+  display: flex;
+  width: 66%;
+  margin-top: 3rem;
+}
+
+.poster {
+  border-radius: 0.4rem;
+  max-height: 600px;
+  max-width: 400px;
+  display: block;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+
+.title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.bookmark-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.bookmark {
+  font-variation-settings: 'FILL' 1;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  opacity: 0.3;
+}
+
+.bookmark:hover {
+  opacity: 0.7;
+}
+
+.favorited {
+  color: rgb(235, 183, 26);
+  opacity: 1;
+}
+
+@media only screen and (max-width: 1200px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    height: 85vh;
+  }
+
+  .wrapper {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  .infos {
+    margin-left: 0;
+  }
+}
